@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails',                   '4.2.11.3'
 
-gem 'rake',                    '0.9.2.2'
+gem 'rake',                    '13.0.1'
 
 # PostgreSQL
 gem 'pg',                      '0.20.0'
@@ -122,7 +122,7 @@ group :test, :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails',           '2.12.0'
+  gem 'rspec-rails',           '3.9.0'
   gem 'rb-readline'
   gem 'byebug'
   gem 'pry-byebug',            '3.3.0'
