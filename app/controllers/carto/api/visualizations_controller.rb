@@ -314,7 +314,7 @@ module Carto
           end
         end
 
-        @visualization.destroy
+        @visualization.reload.destroy
 
         head 204
       rescue StandardError => exception
